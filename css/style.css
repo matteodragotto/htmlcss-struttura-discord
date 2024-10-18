@@ -71,5 +71,15 @@ header .jumbotron .row{
   height: 100%;
 }
 
-  
+/*-----------------Main--------------------*/
+main{
+  height: 100%;
+}  
 
+.w40{
+  width: 40%;
+}
+
+.w60{
+  width: 50%;
+}
