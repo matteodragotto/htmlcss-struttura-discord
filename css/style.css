@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.debug{
+  background-color: rgba(127, 255, 212, 0.2);
+  border: 1px solid black;
+
+}
+
+header{
+  height: 624px;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 100%;
+  width: 98%;
+  height: 100%;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col{
+  padding: 0 10px;
+}
+
+header nav ul{
+  list-style: none;
+  display: flex;
+}
+
+header nav ul a{
+  padding: 35px;
+  margin: 0 20px;
+}
+
+header .navbar .row{
+  justify-content: space-around;
+  align-items: center;
+  height: 10%;
+  margin-top: 10px;
+}
+
+header .row .jumbotron{
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 300px;
+}
+
+header .row .jumbotron p{
+  text-align: center;
+}
