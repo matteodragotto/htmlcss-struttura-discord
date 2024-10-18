@@ -110,6 +110,15 @@ main .row .col{
 
 footer .container{
   width: 70%;
+  height: 665px;
+}
+
+.w15{
+  width: 15%;
+}
+
+.w30{
+  width: 30%;
 }
 
 footer .container .row{
@@ -120,7 +129,7 @@ footer .container .row{
 }
 
 
-footer .row .col{
+footer .container .row .col{
   justify-content: center;
   align-items: center;
   height: 90%;
@@ -129,9 +138,9 @@ footer .row .col{
   padding: 40px;
 }
 
-footer .bottom .row{
+/*footer .bottom .row{
   justify-content: space-between;
-}
+}*/
 
 footer nav ul{
   list-style: none;
