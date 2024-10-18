@@ -16,12 +16,21 @@ header{
 
 .container{
   margin: 0 auto;
-  max-width: 70%;
-  
+  max-width: 100%;
 }
 
 header .container{
   height: 100%;
+}
+
+header .navbar{
+  height: 10%;
+  width: 70%;
+}
+
+header .jumbotron{
+  height: 70%;
+  width: 50%;
 }
 
 .row{
@@ -50,7 +59,7 @@ header nav ul a{
 header .navbar .row{
   justify-content: space-around;
   align-items: center;
-  min-height: 10%;
+  height: 100%;
   margin-top: 10px;
 }
 
@@ -59,17 +68,8 @@ header .jumbotron .row{
   align-items: center;
   padding: 50px;
   margin-top: 50px;
+  height: 100%;
 }
 
-header .row p{
- text-align: center;
- margin: 20px;
-}
+  
 
-header .row .jumbotron p:first-child{
-  max-height: 70%;
-}
-
-header .row .jumbotron p:last-child{
-  max-height: 30%;
-}
